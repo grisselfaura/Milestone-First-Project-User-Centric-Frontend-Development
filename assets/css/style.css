@@ -7,9 +7,36 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+/*---------------------------------Colours*/
+
+/*---------------------------------Special paddings/margins/text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
+   text-transform: uppercase;
+}
+
+.section-heading
+.footer-heading {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;  
+    margin-bottom: 40px;
+
+.footer-contact-item {
+    
+}
+
+/*---------------------------------Heading*/
 
 header {
-  margin :0;
+  margin : 0;
   padding: 156px 0 100px;
 }
 
@@ -25,8 +52,37 @@ transition: all .5s ease-in-out;
 -webkit-transition: all .5s ease-in-out;
 }
 
-
+.section-heading {
+    
+}
 
 section {
   padding: 150px 0;
 }
+
+/*---------------------------------Hover.css*/
+
+/*---------------------------------Footer*/
+
+footer {
+    background-color: #000000;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+    display: block;
+}
+
+#map-container {
+    width: 600;
+    height: 450; 
+}
+
+.footer-copyright {
+    margin :0;
+    position: center;
+    color: white;
+}
+
+/*---------------------------------xxxxx*/
+
+/*---------------------------------Media Queries*/
