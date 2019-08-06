@@ -1,4 +1,4 @@
-# Your Project's Name
+# Agronut Perú
 
 One or two paragraphs providing an overview of your project.
 
@@ -71,11 +71,11 @@ In addition, if it is not obvious, you should also describe how to run your code
 ## Credits
 
 ### Content
-- The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
+- The text the entired site was provided by Franco Faura Tellez and translated by me.
 
 ### Media
 - The photos used in this site were obtained from ...
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration and mockup for this project from Franco Faura Tellez.
