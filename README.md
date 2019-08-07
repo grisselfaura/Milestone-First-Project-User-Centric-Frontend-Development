@@ -79,3 +79,5 @@ In addition, if it is not obvious, you should also describe how to run your code
 ### Acknowledgements
 
 - I received inspiration and mockup for this project from Franco Faura Tellez.
+- 
+file:///C:/Users/Grissel/Downloads/freebie-bootstrap-footers/index.html#Footer-with-map 

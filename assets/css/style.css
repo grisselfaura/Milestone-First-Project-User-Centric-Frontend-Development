@@ -22,15 +22,13 @@ h4 {
    text-transform: uppercase;
 }
 
-.section-heading
+.section-heading,
 .footer-heading {
     font-family: "Lato", sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    color: #fafafa;
     margin-top: 25px;  
-    margin-bottom: 40px;
-
-.footer-contact-item {
-    
+    margin-bottom: 30px;
 }
 
 /*---------------------------------Heading*/
@@ -52,9 +50,6 @@ transition: all .5s ease-in-out;
 -webkit-transition: all .5s ease-in-out;
 }
 
-.section-heading {
-    
-}
 
 section {
   padding: 150px 0;
@@ -65,22 +60,63 @@ section {
 /*---------------------------------Footer*/
 
 footer {
-    background-color: #000000;
-    color: #fafafa;
+    background-color: #1a1c25;
+    color: #fff;
     min-height: 120px;
     margin: 0;
+    padding: 15px 0px;
+ }
+
+#myfooter {
+    padding: 0 20px 20px;
+}
+
+.footer-details {
+    margin-bottom: 15px;
     display: block;
+    clear: both;
+}
+
+.footer-details .key,
+.footer-details .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.footer-details .key i {
+    width: 20%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
+}    
+    
+.footer-details .value {
+    position: relative;
+    width: 60%; 
+}
+
+
+
+.footer-icon {
+    font-size: 26px;
+    color: #fff;
 }
 
 #map-container {
-    width: 600;
-    height: 450; 
+    height: 100%;
+    width: 100%;
+    min-height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
 }
 
-.footer-copyright {
-    margin :0;
-    position: center;
+#footer-copyright {
+    margin: 0;
+    text-align: center;
     color: white;
+    font-size: 12px;
 }
 
 /*---------------------------------xxxxx*/
