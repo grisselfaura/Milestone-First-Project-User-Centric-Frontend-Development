@@ -19,6 +19,13 @@ body {
 .bg-header {
     background-image: url("../images/header-inicio-principal.png");
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 
 
@@ -36,6 +43,10 @@ h4 {
    text-transform: uppercase;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .header-heading {
     font-weight: 600;
     font-size: 60px;
@@ -48,10 +59,19 @@ h4 {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     color: #33FFC3;
-    margin-top: 25px;  
+    margin-top: 50px;  
     margin-bottom: 25px;
 }
 
+.icon-text {
+    text-align: center;
+    margin-top: 30px;
+}  
+
+#icon-title {
+    text-align: center;
+    margin-bottom: 5px;
+}      
 .footer-heading {
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -84,7 +104,12 @@ header {
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
     background-color: #fff;
+    position: relative;
     margin-left: 50px;
     height: 80px;
 	width: auto;
@@ -98,31 +123,36 @@ header {
     margin: 15px 25px;
 }
 
-.landing-view {
-    background-attachment: fixed;
-    background-position: bottom;
-    background-size: cover;
-    margin: 0;
-    position: relative;
-    }
+
 
 /*---------------------------------Sections */   
 
 section {
-  padding: 150px 0;
+  padding: 100px 0;
 }
 
 /*---------------------------------Section-About us */
 
 .about-image {
-    background-repeat: no-repeat;
     background-size: cover;
-    max-width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    position: relative;
+    background-repeat: no-repeat;
 }
 
 .about-icon {
-   float: left;
+    float: left;
+    display: flex;
 }
+
+
+.iconos-hover {
+    transform:scale(1.2);
+}
+
 
 /*---------------------------------Hover.css*/
 
@@ -154,6 +184,9 @@ footer {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     margin: 0;
 }
 
@@ -168,3 +201,8 @@ footer {
 /*---------------------------------xxxxx*/
 
 /*---------------------------------Media Queries*/
+
+@media (min-width: 576px)
+.d-sm-block {
+    display: block!important;
+}

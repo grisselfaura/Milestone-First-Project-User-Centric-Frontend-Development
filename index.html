@@ -8,12 +8,14 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="assets/css/libraries/scrolling-nav.css">
+  <link rel="stylesheet" href="assets/css/libraries/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css" type="text/css">
   <title>Agronut Perú</title>
 </head>
 
 <body>
-  <!-- Navigation -->
+  <!--********NAVIGATION********-->
   <nav class="navbar navbar-expand-lg navbar-dark bg-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="index.html">
@@ -24,45 +26,44 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about-us">About us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#products">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#contact-us">Contact us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#join-our-team">Join our team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#quality">Quality</a>
-          </li>
-        </ul>
-      </div>
+       <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+           <a class="nav-link js-scroll-trigger" href="#about-us">About us</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link js-scroll-trigger" href="#products">Products</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link js-scroll-trigger" href="#contact-us">Contact us</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link js-scroll-trigger" href="#join-our-team">Join our team</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link js-scroll-trigger" href="#quality">Quality</a>
+         </li>
+       </ul>
+       </div>
     </div>
   </nav>
   
-  <!-- Home page  header-->
+  <!--******** HOME PAGE HEADER ********-->
   <header class="bg-header text-white">
-    <div class="container text-center">
-      <h1 class="header-heading uppercase">We are the solution for your crops</h2>
-        <p class="lead">We are a Peruvian company committed to sustainable 
+    <div class="container-fluid">
+      <h1 class="header-heading uppercase">We are the solution for your crops</h1>
+        <p class="lead text-center">We are a Peruvian company committed to sustainable 
           and responsible agriculture that seeks to obtain agricultural products 
           to meet quality and safety standards.</p>
     </div>
   </header>
 
-<!-- Home page  section About us-->
-  <section class="center">
-    <div class="container">
+  <!--******** HOME PAGE SECTION ABOUT US ********-->
+  <section class="about us">
+    <div class="container-fluid about-image">
+      <div class="row"> 
+        <img src="./assets/images/header-nosotros.png" alt="header-nosotros">
+      </div>
       <!-- fix imnage width ************************************************ -->
-      <img class="about-image" src="./assets/images/header-nosotros.png" alt="header-nosotros">
-    </div>
-    <div class="container">
       <div class="row text-center">
         <div class="col-12 mx-auto">
           <h2 class="section-heading uppercase">About us</h2>
@@ -73,37 +74,45 @@
           </p>
         </div>
      </div>
-    
-      <!-- code copy from whiskey page ************************************************ -->
       <div class="row text-center">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="feature">
-            <!-- ccheck feature css ************************************************ -->
-            <h3 class="uppercase">Mission</h3>
-            <p><img class="about-icon" src="./assets/images/iconos/icono-vision.png" alt="icono mission"> To be the leading company in the field of agrochemicals in Latin America.</p>
+        <div class="col-12 col-md-6 col-lg-4 iconos-hover">
+          <div class="about-icon">
+            <img src="./assets/images/iconos/icono-mision.png" alt="icono mission">  
+          </div>
+          <div class="icon-text">
+            <h3 class="uppercase" id="icon-title">Mission</h3>
+            <p> To be the leading company in the field of agrochemicals in Latin America.</p>  
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-          <div class="feature">
-            <h3 class="uppercase"> Vision </h3>
-            <p><img class="about-icon" src="./assets/images/iconos/icono-mision.png"> Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
+          <div class="about-icon">
+            <img src="./assets/images/iconos/icono-vision.png" alt="icono mission">  
+          </div>
+          <div class="icon-text">
+            <h3 class="uppercase" id="icon-title">Vision</h3>
+            <p>Satisfy the needs of the agro-industrial market, with innovative quality products.</p>  
           </div>
         </div>
-        <div class="col-12 d-md-none d-lg-block col-lg-4">
-          <div class="feature">
-            <h3 class="uppercase">Philosophy </h3>
-            <p> <img class="about-icon" src=./assets/images/iconos/icono-filosofia.png> Our continuous improvement ensures the profitability that allows sustainable growth.</p>
-            <!-- code copy from whiskey page for bottom to go down************************************************ -->
-            <p><a class="btn btn-sm btn-light" href="">Read More</a></p>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="about-icon">
+            <img src="./assets/images/iconos/icono-filosofia.png" alt="icono mission">  
+          </div>
+          <div class="icon-text">
+            <h3 class="uppercase" id="icon-title">Philosophy</h3>
+            <p>Our continuous improvement ensures the profitability that allows sustainable growth.</p>  
           </div>
         </div>
-      </div>
-      <!-- code copy from whiskey page ************************************************ -->
+      </div>  
+      <div class="row text-center">
+        <div class="col-12 mx-auto">
+          <p>Meet our product lines and discover the benefits in your crops.</p>
+          <p><a class="btn btn-sm btn-light" href="">Productos</a></p>
+        </div>
     </div>
-    
+    </div>
   </section>
-
-  <section id="services" class="bg-light">
+  <!--******** HOME PAGE SECTION PRODUCTS ********-->
+  <section id="products" class="bg-light">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto ">
@@ -113,8 +122,9 @@
       </div>
     </div>
   </section>
-
-  <section id="contact">
+  
+  <!--******** HOME PAGE SECTION CONTACT US ********-->
+  <section id="contact-us">
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -125,7 +135,7 @@
     </div>
   </section>
 
-  <!-- Footer -->
+  <!--******** FOOTER ********-->
   <footer class="container-fluid">
     <div id="myfooter">
       <div class="row">
