@@ -155,15 +155,23 @@ section {
   padding: 100px 0;
 }
 
+.about-us {
+  padding: 50px 0;
+}
+
 /*---------------------------------Section-About us */
 
-.about-image {
+#about-image {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    display: flex;
-    background-repeat: no-repeat;
 }
 
 .about-icon {
