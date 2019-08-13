@@ -1,8 +1,12 @@
 # Agronut Perú
 
+Welcome!
+
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
+You can check out the website [here](https://grisselfaura.github.io/User-Centric-Frontend-Development-Milestone-Project/.)!
+
  
 ## UX
  
@@ -74,7 +78,7 @@ In addition, if it is not obvious, you should also describe how to run your code
 - The text the entired site was provided by Franco Faura Tellez and translated by me.
 
 ### Media
-- The photos used in this site were obtained from ...
+- The photos used in this site were obtained from istock.
 
 ### Acknowledgements
 
