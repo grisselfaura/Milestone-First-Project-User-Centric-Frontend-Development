@@ -21,6 +21,7 @@
         }
     },
     "run": {
+        "@runner": "Ruby",
         "configs": {
             "@inited": "true",
             "json()": {}

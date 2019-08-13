@@ -5,7 +5,7 @@ Welcome!
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
-You can check out the website [here](https://grisselfaura.github.io/User-Centric-Frontend-Development-Milestone-Project/.)!
+You can check out the website [here](https://grisselfaura.github.io/User-Centric-Frontend-Development-Milestone-Project/)!
 
  
 ## UX
