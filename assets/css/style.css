@@ -110,11 +110,10 @@ header {
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
-    display: flex;
     position: relative;
-    margin-left: 50px;
+    margin: auto;
     height: 80px;
-	width: 245px;
+    display: flex;
 }
 
 .lead {
@@ -138,7 +137,7 @@ header {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  margin: 4px 2px;
+  margin: 15px 0;
   opacity: 1;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
@@ -160,6 +159,9 @@ section {
   padding: 50px 0;
 }
 
+.about-us .text-center {
+    padding: 0 50px;
+}
 /*---------------------------------Section-header-images */
 
 .about-image {
@@ -171,7 +173,7 @@ section {
     background-repeat: no-repeat;
     display: flex;
     height: 300px;
-}
+ }
 
 .products-image {
     background-image: url("../images/section-headers/header-productos.png");
