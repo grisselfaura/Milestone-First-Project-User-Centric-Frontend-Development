@@ -71,7 +71,8 @@ h4 {
 #icon-title {
     text-align: center;
     margin-bottom: 5px;
-}      
+}
+
 .footer-heading {
     font-family: "Lato", sans-serif;
     font-weight: 500;
@@ -113,7 +114,7 @@ header {
     position: relative;
     margin-left: 50px;
     height: 80px;
-	width: auto;
+	width: 245px;
 }
 
 .lead {
@@ -159,23 +160,53 @@ section {
   padding: 50px 0;
 }
 
-/*---------------------------------Section-About us */
+/*---------------------------------Section-header-images */
 
-#about-image,
-#products-image,
-#contact-us-image,
-#join-our-team-image {
-    padding: 0;
-    margin: 0;
-    display: flex;
-    background-repeat: no-repeat;
+.about-image {
+    background-image: url("../images/section-headers/header-nosotros.png");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background: 50 50 no-repeat;
+    background-repeat: no-repeat;
+    display: flex;
     height: 300px;
 }
+
+.products-image {
+    background-image: url("../images/section-headers/header-productos.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 300px;
+}
+
+.contact-us-image {
+    background-image: url("../images/section-headers/header-pedidos.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 300px;
+}
+
+.join-our-team-image {
+    background-image: url("../images/section-headers/header-unete.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    height: 300px;
+}
+
+/*---------------------------------Section-About us */
 
 .about-icon {
     float: left;
@@ -230,12 +261,6 @@ footer {
 }
 
 /*---------------------------------test zone delete*/
-.image-test {
-    background-image: url("../images/section-headers/header-nosotros.png");
-    background-size: cover;
-    background: 50 50 no-repeat;
-    height: 300px;
-}
 
 
 /*---------------------------------xxxxx*/
