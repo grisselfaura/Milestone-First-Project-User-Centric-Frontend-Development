@@ -12,7 +12,7 @@ body {
 
 /*---------------------------------Colours*/
 
-.nav.bg-light {
+.bg-light {
     background-color: #fff;
 }
 
@@ -83,16 +83,12 @@ h4 {
 
 /*---------------------------------Navigation Bar*/
 
-.navbar-dark .navbar-toggler-icon {
-    background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
-}
-
-
-.navbar-dark .navbar-nav .nav-link {
+.navbar-light .navbar-nav .nav-link {
     color: #0000EE;
+    font-size: 21px;
 }
 
-.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
     color: #33FFC3;
     font-weight: bold;
 }
@@ -109,10 +105,10 @@ header {
 .logo-image {
     background-position: left;
     background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
     display: flex;
     background-color: #fff;
     position: relative;
