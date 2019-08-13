@@ -230,6 +230,15 @@ footer {
     font-size: 12px;
 }
 
+/*---------------------------------test zone delete*/
+.image-test {
+    background-image: url("../images/section-headers/header-nosotros.png");
+    background-size: cover;
+    background: 50 50 no-repeat;
+    width: 100%;
+}
+
+
 /*---------------------------------xxxxx*/
 
 /*---------------------------------Media Queries*/
