@@ -213,9 +213,12 @@ section {
 .about-icon {
     float: left;
     display: flex;
+    max-width: 50%;
 }
 
-
+.fa-stack.fa-lg {
+    padding: 10px 0;
+}
 
 
 /*---------------------------------Hover.css*/
