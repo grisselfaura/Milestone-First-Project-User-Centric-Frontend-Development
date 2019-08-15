@@ -277,10 +277,74 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 200px;
+    height: 400px;
     margin: 0;
 }
 
+.products-nutrientes {
+    background-image: url("../images/products/mini-productos-fertilizantes.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 400px;
+    margin: 0;
+}
+
+.products-adherentes {
+    background-image: url("../images/products/mini-productos-adherentes.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 400px;
+    margin: 0;
+}
+
+.products-enraizantes {
+  background-image: url("../images/products/mini-productos-enraizantes.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 400px;
+    margin: 0;  
+}
+
+.products-nutriprotectores {
+   background-image: url("../images/products/mini-productos-nutriprotectores.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 400px;
+    margin: 0;    
+}
+
+.products-deluxe {
+    background-image: url("../images/products/mini-productos-deluxe.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 400px;
+    margin: 0; 
+}
 /*---------------------------------Hover.css*/
 
 /*---------------------------------Footer*/
