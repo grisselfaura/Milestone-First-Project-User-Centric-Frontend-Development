@@ -59,9 +59,17 @@ h4 {
 .section-heading {
     font-family: "Lato", sans-serif;
     font-weight: 500;
-    color: #33FFC3;
+    color: #0ee1a2e8;;
     margin-top: 50px;  
     margin-bottom: 25px;
+}
+
+.section-subheading {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    color: #0ee1a2e8;;
+    margin-top: 25px;  
+    margin-bottom: 20px;
 }
 
 .icon-text {
@@ -91,7 +99,7 @@ h4 {
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #33FFC3;
+    color: #0ee1a2e8;;
     font-weight: bold;
 }
 
@@ -148,7 +156,24 @@ header {
 
 .btn:hover {opacity: 0.6;}
 
-
+.btn-readmore {
+  background-color: #0ee1a2e8;
+  border: none;
+  color: white;
+  border-radius: 6%;
+  padding: 10px 16px;
+  line-height: 1.33;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 0 15px;
+  opacity: 1;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  clear: both;
+}
 /*---------------------------------Sections */   
 
 section {
@@ -164,6 +189,7 @@ section {
     padding: 0 20px;
     margin: auto;
 }
+
 /*---------------------------------Section-header-images */
 
 .about-image {
@@ -223,6 +249,37 @@ section {
     padding: 10px 0;
 }
 
+/*---------------------------------Section-products */
+
+
+.card.h-100 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box; 
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: .25rem;
+  margin-top: 20px;
+  box-shadow: 2px 2px 12px 3px rgba(0,0,0,0.41);
+    -webkit-box-shadow: 2px 2px 12px 3px rgba(0,0,0,0.41);
+    -moz-box-shadow: 2px 2px 12px 3px rgba(0,0,0,0.41);
+}
+
+.products-bioestimulantes {
+    background-image: url("../images/products/mini-productos-bioestimulantes.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    display: flex;
+    height: 200px;
+    margin: 0;
+}
 
 /*---------------------------------Hover.css*/
 
