@@ -396,3 +396,7 @@ footer {
 
 /*---------------------------------Media Queries*/
 
+@media (max-width:350px){
+    .logo-image {
+    height: 8vh;}
+}
