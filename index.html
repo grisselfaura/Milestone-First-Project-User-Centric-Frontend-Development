@@ -17,11 +17,11 @@
 <body id="page-top">
   
   <!--********NAVIGATION from bootstraap********-->
+  <!--********center logo********-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
         <img class="logo-image" src="./assets/images/logo-nav.svg" alt="company logo">
-        <!--********LOGO BACKGROUND********-->
       </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -50,16 +50,24 @@
   </nav>
 
   <!--******** HOME PAGE HEADER ********-->
-  <!--********SHOULD HEADER BE INSIDE A SECTION********-->
   <header class="bg-header text-white">
-    <div class="container-fluid">
+    <!--********center text********-->
+    <div class="container-fluid header-style">
       <h1 class="header-heading uppercase">We are the solution for your crops</h1>
-        <p class="lead text-center">We are a Peruvian company committed to sustainable 
+      <p class="lead text-center">We are a Peruvian company committed to sustainable 
           and responsible agriculture that seeks to obtain agricultural products 
           to meet quality and safety standards.</p>
     </div>
+    <div class="row text-center">
+      <!--********fix arrow position probably related to the absolute position a bove********-->
+      <div class="col-12">
+        <a href="#contact-us" class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
   </header>
-
 
   <!--******** HOME PAGE SECTION ABOUT US ********-->
   <section class="about-us">
@@ -75,7 +83,7 @@
         </div>
       </div>
       <div class="row text-center">
-        <!--********GIVE MORE SPACE TO THE SIDES AND IMAGES RESPONSIVENESS********-->
+        <!--********GIVE MORE SPACE TO THE SIDES AND IMAGES RESPONSIVENESS offset********-->
         <div class="col-md-6 col-lg-4 mx-auto">
           <div class="about-icon">
             <img src="./assets/images/iconos/icono-mision.png" alt="icono mission">  
@@ -107,12 +115,11 @@
       <div class="row text-center">
         <div class="col-12">
           <strong>Meet our product lines and discover the benefits in your crops.</strong>
-          <ul>
-            <a href="#products" class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </a>
-           </ul> 
+          <br>
+          <a href="#products" class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -126,7 +133,7 @@
         <div class="col-lg-8 mx-auto ">
           <h2 class="section-heading uppercase">Products</h2>
           <hr>
-          <p class="lead">Select the type of product to know more details.</p>
+          <p class="lead text-center">Select the type of product to know more details.</p>
           <br>
         </div>
       </div>
@@ -137,9 +144,8 @@
             <div class="card-body">
               <h3 class="section-subheading">Biostimulants</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
@@ -149,9 +155,8 @@
             <div class="card-body">
               <h3 class="section-subheading">Nutrients</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
@@ -161,9 +166,8 @@
             <div class="card-body">
               <h3 class="section-subheading">Adherent</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
@@ -173,9 +177,8 @@
             <div class="card-body">
               <h3 class="section-subheading">Rooting</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
@@ -185,9 +188,8 @@
             <div class="card-body">
               <h3 class="section-subheading">Nutriprotectors</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
@@ -197,22 +199,18 @@
             <div class="card-body">
               <h3 class="section-subheading">Suspensions</h3>
               <p class="lead">Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
-              <ul>
-                <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
-              </ul>
+              <br>
+              <span><a class="btn-readmore" href="">Read more</a></span>  <!--******** link pending********--> 
             </div>
           </div>
         </div>
       </div>
       <div class="row text-center">
         <div class="col-12">
-          <strong>.</strong>
-          <ul>
-            <a href="#contact-us" class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </a>
-           </ul> 
+          <a href="#contact-us" class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -226,7 +224,7 @@
         <div class="col-lg-8 mx-auto">
           <h2 class="section-heading uppercase">Make your order!</h2>
           <hr>
-          <p class="lead">For any order, questions or suggestions please fill out the form below.</p>
+          <p class="lead text-center">For any order, questions or suggestions please fill out the form below.</p>
           <br>
           <form>
             <div class="form-row">
@@ -266,16 +264,13 @@
       </div>
     </div>
     <div class="row text-center">
-        <div class="col-12">
-          <strong>.</strong>
-          <ul>
-            <a href="#join-our-team" class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </a>
-           </ul> 
-        </div>
+      <div class="col-12">
+        <a href="#join-our-team" class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+        <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+        </a>
       </div>
+   </div>
   </section>
 
   <!--********HOME PAGE SECTION JOIN OUR TEAM********-->
@@ -289,11 +284,11 @@
           <!--********add layout********-->
           <h3><strong>Would you like to be part of our team?</strong></h3>
           <br>
-          <p class="lead">At Agronut Peru SAC, we welcome professionals
+          <p class="lead text-center">At Agronut Peru SAC, we welcome professionals
           with valuable experience and entrepreneurial distributors who
           wish to identify with us. We always promote a diverse and respectful
           work space.</p>
-          <p class="lead">Start your selection process by choosing the area of your interest.</p>
+          <p class="lead text-center">Start your selection process by choosing the area of your interest.</p>
           <ul>
             <span><a class="btn-readmore" href="">Distributor authorized</a></span>
             <!--******** LINK PENDING FOR FUTURE********--> 
@@ -304,12 +299,10 @@
       </div>
       <div class="row text-center">
         <div class="col-12">
-          <ul>
-            <a href="#page-top" class="fa-stack fa-lg">
-              <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-              <i class="fa fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
-            </a>
-          </ul> 
+          <a href="#page-top" class="fa-stack fa-lg">
+          <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+          <i class="fa fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </a>
         </div>
       </div>
     </div>
@@ -359,8 +352,8 @@
           </div>
         </div>
         <div class="col-sm-6">
-            <!-- Here we use the Google Embed API to show Google Maps. -->
-            <!-- In order for this to work in your project you will need to generate a unique API key.  -->
+        <!-- Here I use the Google Embed API to show Google Maps (CHECK FOR REFERENCE). -->
+        <!-- In order for this to work in your project you will need to generate a unique API key.  -->
             <iframe id="map-container" frameborder="0 " style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Avenida%20Las%20Casuarinas%20e50%20%2C%20Piura%2C%20Peru&key=AIzaSyCVpDTSOlehrt9kFJa1LZH1qMivOLIdXx8" allowfullscreen></iframe>
         </div>
       </div>

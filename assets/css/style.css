@@ -13,23 +13,8 @@ body {
 /*---------------------------------Colours*/
 
 .bg-light {
-    background-color: #fff;
+    background-color: #fff !important;
 }
-
-.bg-header {
-    background-image: url("../images/header-inicio-principal.png");
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    opacity: 0.9;
-}
-
-
 
 /*---------------------------------Special paddings/margins/text*/
 
@@ -47,6 +32,22 @@ h4 {
 
 .text-center {
     text-align: center;
+}
+
+.lead {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.3;
+    margin: auto;
+}
+
+/*---------------------------------Headings*/
+
+header {
+  margin: 0;
+  padding: 156px 0 100px;
+  display: block;
 }
 
 .header-heading {
@@ -91,7 +92,6 @@ h4 {
     margin-bottom: 25px;
 }
 
-
 /*---------------------------------Navigation Bar*/
 
 .navbar-light .navbar-nav .nav-link {
@@ -104,23 +104,13 @@ h4 {
     font-weight: bold;
 }
 
-
-/*---------------------------------Heading*/
-
-header {
-  margin: 0;
-  padding: 156px 0 100px;
-  display: block;
-}
-
 .logo-image {
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
-    background-color: #f8f9fa;
     position: relative;
     margin: auto;
     height: 80px;
@@ -128,12 +118,27 @@ header {
     display: flex;
 }
 
-.lead {
-    text-align: justify;
-    font-weight: 500;
-    font-size: 21px;
-    line-height: 1.3;
-    margin: auto;
+/*---------------------------------Header*/
+
+.bg-header {
+    background-image: url("../images/header-inicio-principal.png");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    opacity: 0.9;
+    height: 100vh;
+}
+
+#header-style {
+    width: 700px;
+    
+    top: 50%;
+    left: 40%;
 }
 
 /*---------------------------------Buttoms */  
@@ -177,6 +182,7 @@ header {
   cursor: pointer;
   clear: both;
 }
+
 /*---------------------------------Sections */   
 
 section {
@@ -193,7 +199,7 @@ section {
     margin: auto;
 }
 
-/*---------------------------------Section-header-images */
+/*---------------------------------Sections-header-images */
 
 .about-image {
     background-image: url("../images/section-headers/header-nosotros.png");
@@ -253,7 +259,6 @@ section {
 }
 
 /*---------------------------------Section-products */
-
 
 .card.h-100 {
   position: relative;
@@ -348,6 +353,7 @@ section {
     height: 400px;
     margin: 0; 
 }
+
 /*---------------------------------Hover.css*/
 
 /*---------------------------------Footer*/
@@ -391,11 +397,6 @@ footer {
     color: white;
     font-size: 12px;
 }
-
-/*---------------------------------test zone delete*/
-
-
-/*---------------------------------xxxxx*/
 
 /*---------------------------------Media Queries*/
 
