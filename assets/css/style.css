@@ -38,6 +38,7 @@ h2,
 h3,
 h4 {
     margin: 0;
+    font-weight: bold;
 }
 
 .uppercase {
@@ -66,7 +67,7 @@ h4 {
 
 .section-subheading {
     font-family: "Lato", sans-serif;
-    font-weight: 500;
+    font-weight: 400;
     color: #0ee1a2e8;;
     margin-top: 25px;  
     margin-bottom: 20px;
@@ -119,9 +120,11 @@ header {
     -webkit-background-size: contain;
     -moz-background-size: contain;
     -o-background-size: contain;
+    background-color: #f8f9fa;
     position: relative;
     margin: auto;
     height: 80px;
+    width: 250px;
     display: flex;
 }
 
@@ -398,5 +401,5 @@ footer {
 
 @media (max-width:350px){
     .logo-image {
-    height: 8vh;}
+    height: 8vh; width: 70vw}
 }
