@@ -134,11 +134,15 @@ header {
     height: 100vh;
 }
 
-#header-style {
-    width: 700px;
-    
-    top: 50%;
-    left: 40%;
+.header-style {
+    max-width: 700px;
+}
+
+/*---------------------------------Icons */  
+
+.arrow-abajo {
+    position: absolute;
+    bottom: 50px;
 }
 
 /*---------------------------------Buttoms */  
