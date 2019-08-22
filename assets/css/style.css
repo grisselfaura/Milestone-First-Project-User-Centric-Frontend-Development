@@ -145,29 +145,8 @@ header {
 
 /*---------------------------------Buttoms */  
 
-.btn {
-  background-color: #007bff;
-  border: none;
-  color: white;
-  border-radius: 6%;
-  padding: 10px 16px;
-  line-height: 1.33;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 15px 0;
-  opacity: 1;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
-  cursor: pointer;
-  clear: both;
-}
-
-.btn:hover {opacity: 0.6;}
-
-.btn-readmore {
-  background-color: #0ee1a2e8;
+.btn-readmore { /*code combination from cssbuttons//bootstraap button styles/hover effect*/
+  background-color: #0ee1a2e8; /* change color */
   border: none;
   color: white;
   border-radius: 6%;
@@ -184,6 +163,13 @@ header {
   cursor: pointer;
   clear: both;
 }
+
+.btn:hover {opacity: 0.6;}
+
+.btn-aquacolor {
+  margin: 15px 0;
+}
+
 
 /*---------------------------------Sections */   
 
