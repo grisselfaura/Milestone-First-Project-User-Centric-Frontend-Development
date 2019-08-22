@@ -135,9 +135,12 @@ header {
 
 /*---------------------------------Icons */  
 
+.arrow-wrapper {
+    position: relative;
+    margin: 50px;
+}
 .arrow-abajo {
     position: absolute;
-    bottom: 5px;
 }
 
 /*---------------------------------Buttoms */  
@@ -284,7 +287,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0;
 }
 
@@ -297,7 +302,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0;
 }
 
@@ -310,7 +317,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0;
 }
 
@@ -323,7 +332,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0;  
 }
 
@@ -336,7 +347,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0;    
 }
 
@@ -349,7 +362,9 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    height: 400px;
+    min-width: 300px;
+    height: 35vh;
+    min-height: 200px;
     margin: 0; 
 }
 
