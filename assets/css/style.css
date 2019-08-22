@@ -105,17 +105,12 @@ header {
 }
 
 .logo-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    -webkit-background-size: contain;
-    -moz-background-size: contain;
-    -o-background-size: contain;
     position: relative;
     margin: auto;
     height: 80px;
-    width: 250px;
-    display: flex;
+    width: auto;
+    display: inline-block;
+    text-align: center;
 }
 
 /*---------------------------------Header*/
@@ -142,7 +137,7 @@ header {
 
 .arrow-abajo {
     position: absolute;
-    bottom: 50px;
+    bottom: 5px;
 }
 
 /*---------------------------------Buttoms */  

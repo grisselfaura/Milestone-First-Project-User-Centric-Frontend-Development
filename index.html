@@ -17,7 +17,7 @@
 <body id="page-top">
   
   <!--********NAVIGATION from bootstraap********-->
-  <!--********CENTER LOGO********-->
+  <!--********seems like logo is center in its space but the other div is to wide********-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -51,7 +51,6 @@
 
   <!--******** HOME PAGE HEADER ********-->
   <header class="bg-header text-white">
-    <!--********CENTER TEXT MAKE A SMALLER COL WIDTH FOR TEXT********-->
     <div class="container-fluid">
       <div class="col-lg-5 header-style mx-auto">
         <h1 class="header-heading uppercase">We are the solution for your crops</h1>
@@ -59,8 +58,8 @@
         <p class="lead">We are a Peruvian company committed to sustainable and responsible agriculture that seeks to obtain agricultural products to meet quality and safety standards.</p>
       </div>
       <div class="row text-center">
-        <div class="col-12 arrow-abajo">
-          <a href="#contact-us" class="fa-stack fa-2x">
+        <div class="col-12 arrow-abajo"> <!--********remove aboslute position and check arrow position********-->
+          <a href="#about-us" class="fa-stack fa-2x">
             <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
             <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
           </a>
@@ -69,7 +68,7 @@
   </header>
 
   <!--******** HOME PAGE SECTION ABOUT US ********-->
-  <section class="about-us">
+  <section id="about-us">
     <div class="container-fluid">
       <div class="row about-image"></div>
       <div class="row text-center">
@@ -112,10 +111,10 @@
         </div>
       </div>  
       <div class="row text-center">
-        <div class="col-12">
+        <div class="col-12"> <!--******** check how to place arrow at the bottom ********-->
           <strong>Meet our product lines and discover the benefits in your crops.</strong>
           <br>
-          <a href="#products" class="fa-stack fa-lg">
+          <a href="#products" class="fa-stack fa-2x">
           <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
           <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
           </a>
@@ -203,12 +202,12 @@
             </div>
           </div>
         </div>
-      </div>
-      <div class="row text-center">
+      </div><!--******** check image sizes ********-->
+      <div class="row text-center position-relative">
         <div class="col-12">
-          <a href="#contact-us" class="fa-stack fa-lg">
-          <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-          <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          <a href="#contact-us" class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
           </a>
         </div>
       </div>
@@ -262,14 +261,14 @@
         </div>
       </div>
     </div>
-    <div class="row text-center">
-      <div class="col-12">
-        <a href="#join-our-team" class="fa-stack fa-lg">
-        <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
-        <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
-        </a>
+    <div class="row text-center position-relative">
+        <div class="col-12 arrow-abajo">
+          <a href="#join-our-team" class="fa-stack fa-2x">
+            <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
+            <i class="fa fa-chevron-down fa-stack-1x fa-inverse" aria-hidden="true"></i>
+          </a>
+        </div>
       </div>
-   </div>
   </section>
 
   <!--********HOME PAGE SECTION JOIN OUR TEAM********-->
@@ -296,9 +295,9 @@
           </ul>
         </div>
       </div>
-      <div class="row text-center">
-        <div class="col-12">
-          <a href="#page-top" class="fa-stack fa-lg">
+      <div class="row text-center position-relative">
+        <div class="col-12 arrow-abajo">
+          <a href="#page-top" class="fa-stack fa-2x">
           <i class="fa fa-circle fa-stack-2x" aria-hidden="true"></i>
           <i class="fa fa-chevron-up fa-stack-1x fa-inverse" aria-hidden="true"></i>
           </a>
