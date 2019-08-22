@@ -145,7 +145,7 @@ header {
 
 /*---------------------------------Buttoms */  
 
-.btn-readmore { /*code combination from cssbuttons//bootstraap button styles/hover effect*/
+.btn-readmore { /*code combination from cssbuttons//bootstraap button styles/css hover effect*/
   background-color: #0ee1a2e8; /* change color */
   border: none;
   color: white;
@@ -158,13 +158,14 @@ header {
   font-size: 16px;
   margin: 20px 0 15px;
   opacity: 1;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  -webkit-transition: background-color 0.15s ease-in-out; /* Safari */
+  transition: background-color 0.15s ease-in-out;
   cursor: pointer;
   clear: both;
 }
 
-.btn:hover {opacity: 0.6;}
+.btn-readmore:hover {opacity: 0.6; background-color: #3ea957; 
+  color: black; } /*COULD I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLORt*/
 
 .btn-aquacolor {
   margin: 15px 0;
