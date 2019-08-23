@@ -188,7 +188,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
   display: block;
 }
 
-.about-icons {
+.about-icons-area {
    padding-top: 20px;
    padding-bottom: 20px;
 }
@@ -246,10 +246,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     /*height: auto;
     max-width: 100%;*/
     display: flex;
-    /*min-width: 60px;---------------------------------similar approach as with product images */
-    width: auto;
-    height: 100%;
-    min-height: 50px;
+    min-width: 120px;
+    height: 20vh;
+    min-height: 160px
 }
 
 .fa-stack.fa-lg {
@@ -420,3 +419,8 @@ footer {
     height: 8vh; width: 70vw}
 }
 
+@media (max-width: 1483px){/* check for feedback if best way to fix it*/
+.col-xl-4 {
+    flex: 0 0 50%;
+    max-width: 50%;}
+}
