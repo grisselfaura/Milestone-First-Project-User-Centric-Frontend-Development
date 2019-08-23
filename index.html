@@ -17,7 +17,6 @@
 <body id="page-top">
   
   <!--********NAVIGATION code from startbootstrap-scrolling-nav and Logo Nav by Start Bootstrap********-->
-  <!--********seems like logo is center in its space but the other div is to wide********-->
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" id="mainNav">
     <div class="container-fluid">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">
@@ -26,7 +25,7 @@
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
+      <div class="collapse navbar-collapse nav-width" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
          <li class="nav-item">
            <a class="nav-link js-scroll-trigger" href="#about-us">About us</a>
@@ -54,7 +53,7 @@
     <div class="container-fluid">
       <div class="col-lg-5 header-style mx-auto">
         <h1 class="header-heading uppercase">We are the solution for your crops</h1>
-        <br>
+        <br><!--********own notes check if text is not responsive  ********-->
         <p class="lead">We are a Peruvian company committed to sustainable and responsible agriculture that seeks to obtain agricultural products to meet quality and safety standards.</p>
       </div>
       <div class="row text-center arrow-wrapper">
@@ -79,38 +78,37 @@
           <p class="lead">We are a Peruvian company committed to sustainable and responsible agriculture that seeks to obtain agricultural products to meet quality and safety standards. Agronut Peru Sac, has been working with products for foliar and soil application that satisfy
             the need of crops. Our offer also extends to products for the protection of crops with low environmental impact, thus promoting an integrated, responsible and environmentally friendly management. We serve nationally, including agricultural exporters
             and wholesalers.</p>
+          <div class="row about-icons"><!--********IMAGES RESPONSIVENESS  ********-->
+            <div class="col-12 col-md-6 col-xl-4 mx-auto">
+              <div class="about-icon">
+                <img src="./assets/images/iconos/icono-mision.png" alt="icono mission">
+              </div>
+              <div class="icon-text">
+                <h3 class="uppercase" id="icon-title">Mission</h3>
+                <p> To be the leading company in the field of agrochemicals in Latin America.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 mx-auto">
+              <div class="about-icon">
+                <img src="./assets/images/iconos/icono-vision.png" alt="icono mission">
+              </div>
+              <div class="icon-text">
+                <h3 class="uppercase" id="icon-title">Vision</h3>
+                <p>Satisfy the needs of the agro-industrial market, with innovative quality products.</p>
+              </div>
+            </div>
+            <div class="col-12 col-md-6 col-xl-4 mx-auto">
+              <div class="about-icon">
+                <img src="./assets/images/iconos/icono-filosofia.png" alt="icono mission">
+              </div>
+              <div class="icon-text">
+                <h3 class="uppercase" id="icon-title">Philosophy</h3>
+                <p>Our continuous improvement ensures the profitability that allows sustainable growth.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="row text-center">
-        <!--********GIVE MORE SPACE TO THE SIDES AND IMAGES RESPONSIVENESS offset********-->
-        <div class="col-md-6 col-lg-4">
-          <div class="about-icon">
-            <img src="./assets/images/iconos/icono-mision.png" alt="icono mission">  
-          </div>
-          <div class="icon-text">
-            <h3 class="uppercase" id="icon-title">Mission</h3>
-            <p> To be the leading company in the field of agrochemicals in Latin America.</p>  
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="about-icon">
-            <img src="./assets/images/iconos/icono-vision.png" alt="icono mission">  
-          </div>
-          <div class="icon-text">
-            <h3 class="uppercase" id="icon-title">Vision</h3>
-            <p>Satisfy the needs of the agro-industrial market, with innovative quality products.</p>  
-          </div>
-        </div>
-        <div class="col-md-6 col-lg-4">
-          <div class="about-icon">
-            <img src="./assets/images/iconos/icono-filosofia.png" alt="icono mission">  
-          </div>
-          <div class="icon-text">
-            <h3 class="uppercase" id="icon-title">Philosophy</h3>
-            <p>Our continuous improvement ensures the profitability that allows sustainable growth.</p>  
-          </div>
-        </div>
-      </div>  
       <div class="row text-center">
         <div class="col-12"> <!--******** check how to place arrow at the bottom ********-->
           <p><strong>Meet our product lines and discover the benefits in your crops.</strong></p>
