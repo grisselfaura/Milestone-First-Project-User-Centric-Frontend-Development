@@ -76,7 +76,7 @@ header {
 
 .icon-text {
     text-align: justify;
-    margin-top: 30px;
+    margin: 20px auto;
 }  
 
 #icon-title {
@@ -419,7 +419,7 @@ footer {
     height: 8vh; width: 70vw}
 }
 
-@media (max-width: 1483px){/* check for feedback if best way to fix it*/
+@media only screen and (max-width: 1483px) and (min-width: 768px){/* check for feedback if best way to fix it*/
 .col-xl-4 {
     flex: 0 0 50%;
     max-width: 50%;}
