@@ -173,13 +173,14 @@ header {
   clear: both;
 }
 
-.btn-readmore:hover {opacity: 0.6; background-color: #3ea957; 
-  color: black; } /*COULD I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLORt*/
-
 .btn-aquacolor {
   margin: 15px 0;
 }
 
+/*---------------------------------Hover.css*/
+
+.btn-readmore:hover {opacity: 0.6; background-color: #3ea957; 
+  color: black; } /*COULD I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLORt*/
 
 /*---------------------------------Sections */   
 
@@ -282,7 +283,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0;
@@ -297,7 +298,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0;
@@ -312,7 +313,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0;
@@ -327,7 +328,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0;  
@@ -342,7 +343,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0;    
@@ -357,13 +358,11 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-repeat: no-repeat;
     background-position: top center;
     display: flex;
-    min-width: 300px;
+    width: auto;
     height: 35vh;
     min-height: 200px;
     margin: 0; 
 }
-
-/*---------------------------------Hover.css*/
 
 /*---------------------------------Footer*/
 
