@@ -244,12 +244,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 
 .about-icon {
     float: left;
-    /*height: auto;
-    max-width: 100%;*/
-    display: flex;
-    min-width: 120px;
-    height: 20vh;
-    min-height: 160px
+    width: auto;
+    height: 15vh;
+    min-height: 100px;
 }
 
 .fa-stack.fa-lg {
