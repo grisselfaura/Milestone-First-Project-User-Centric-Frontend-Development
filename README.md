@@ -2,52 +2,53 @@
 
 Welcome to my Stream One Project: User-Centric Frontend Development - Code Institute!
 
-Agronut Perú is an e-commerce website which interacts with Farmers and influence Agriculture productivity in a suistanable and responsible way. 
-It provides information and convinient solution about specific crops fertilizers which can be order online without going to a far away physical shop. 
+Agronut Perú is an website which interacts with Farmers and influence agriculture productivity in a susteinable and responsible way. 
+It provides information and convinient solution about specific crops fertilizers which can be requested online without going to a far away physical shop. 
 
 This website is part of my portfolio to present to prospective employers and also a demo-version for Agronut Perú (as it's potential website).
 
 ## Demo
 
 You can check out the website [here](https://grisselfaura.github.io/User-Centric-Frontend-Development-Milestone-Project/)!
-![Responsive mockup](https://raw.githubusercontent.com/User-Centric-Frontend-Development-Milestone-Project/assets/images/read-mockups/Mock-up-responsive-test.PNG "Responsive mockup")
+![Responsive mockup](https://raw.githubusercontent.com/grisselfaura/User-Centric-Frontend-Development-Milestone-Project/master/assets/images/read-mockups/Mock-up-responsive-test.PNG "Responsive mockup")
 
  
 ## UX
 
-My goal in the design was to make it as easy as possible to access information on the site while striving for a minimalist design. The greyscale color scheme was chosen to create a sleek and modern feel. 
+- My goal on the website design was to make it as easy as possible for the potential customers to access the information on the site while striving for a simple layout approach. 
 
-For employers, I wanted to provide them with a brief overview of myself and my capabilities via a user friendly design. This way, they would be able to get a glimpse of who I am, my background, work I've done, and my skills, with the option to contact me if they choose. In the 'Work/Travail' section, I wanted them to be able to quickly access work that I've done, providing a short summary of the project and main technologies with a link to each GitHub Repository and live demo. A link to my LinkedIn profile, my GitHub, and a downloadable PDF version of my CV were also provided for their ease of access. 
- 
+- The design color scheme was chosen by a local graphic designer with further insight to the peruvian marketing trends to create a colorful visual impact and straighforward easy-to-use feeling. 
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+- For the buyers, I wanted to provide them with a brief overview of the company, the product's categories and a contact form to request such product via a user friendly design.
+  This way, they would be able to get a glimpse of Agronut Perú, the products catalog and an easy-reliable option to contact Agronut Perú if they choose to obtain such product. 
+  In the 'Contact us' section, I wanted them to be able to quickly reach Agronut Perú customer service and sales using a safely approach to avoid potential local internet scams. 
+  A google map link showing the company address was also provided for their information. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-- As a user type, I want to perform an action, so that I can achieve a goal.
-
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+- For potential partnerships, I wanted to provide them with a brief overview of the company oppportunities in the 'Join us' section and corresponding subsections. 
+  [Subsections with corresponding information will be further developed upon company request}.
 
 ## Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
- 
-### Existing Features
-- Feature 1 - allows users X to achieve Y, by having them fill out Z
-- ...
+- ### Existing Features
+- This site uses the Scrolling Nav feature in Bootstrap with an extra JavaScript function added to create a 'smooth scrolling' effect. 
+- The navbar is fixed to the top that collapses on scroll. The Navbar also uses the scrollSpy feature that highlights active page sections.
+- Each section contains an arrow icon at the end of each section to inform the user that there is further reading below. The last arrow will bring the user back to the landing page.
+- Buttons are named after corresponding section to promote user friendly approach. In addition hover feature has been added all buttons to highlight user interaction with potential action.
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-- Another feature idea
+- ### Features Left to Implement
+* In the future i would like to add a quality section (depending on client desire to add certifications for its products and service) to be link to the Quality item in the NavBar.
+* In addition the readmore button from each product category needs to be link to each individual product caracteristics and its product code.
+* Furthermore the links to the subsections buttons in the join us sections (depending on client's layout desire) needs to be added.
+* Lastly, I would like to add a blog section with videos and tips regarding susteinable farming. 
 
 ## Technologies Used
 
 1. HTML
 2. CSS
-3. Bootstrap (3.3.7)
-4. 
+3. Bootstrap (4.3.1)
+3.1. Scrolling Nav
+3.2. Bootstrap Footers with map
+4. Font-awesome (4.7.0)<!--********would u call this a technology********-->
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
 - [JQuery](https://jquery.com)
@@ -76,26 +77,35 @@ If this section grows too long, you may want to split it off into a separate fil
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+This site is hosted using GitHub pages, deployed directly from the master branch. 
+The deployed site will update automatically upon new commits to the master branch.
+In order for the site to deploy correctly on GitHub pages, the landing page must be named `index.html`.
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-- Different values for environment variables (Heroku Config Vars)?
-- Different configuration files?
-- Separate git branch?
+To run locally, you can clone this repository directly into the editor of your choice by pasting
+```
+ `git clone  https://github.com/grisselfaura/User-Centric-Frontend-Development-Milestone-Project.git` into your terminal. 
+```
+To cut ties with this GitHub repository, type `git remote rm origin` into the terminal.
 
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
+## Contribution
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## Credits
 
-### Content
-- The text the entired site was provided by Franco Faura Tellez and translated by me.
+- ### Content
+The original text for the entired site was provided by Franco Faura Tellez and translated to english by me.
 
-### Media
-- The photos used in this site were obtained from istock.
+- ### Media
+The photos used in this site were provided by Franco Faura Tellez and obtained from istock.
+
 
 ### Acknowledgements
 
-- I received inspiration and mockup for this project from Franco Faura Tellez.
-- 
-file:///C:/Users/Grissel/Downloads/freebie-bootstrap-footers/index.html#Footer-with-map 
+I received inspiration and mockup for this project from graphic designer Franco Faura Tellez.
+
+The Bootstrap Nav tutorial was found through this tutorial [here](https://startbootstrap.com/templates/scrolling-nav/).
+The Bootstrap Footers with map was found through this tutorial [here](https://tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers).
+
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
