@@ -415,7 +415,8 @@ footer {
 .section-subheading,
 .icon-title,
 .lead,
-.iphone4respon {font-size: 80%}
+.iphone4respon,
+.btn-readmore {font-size: 80%}
 }
 
 @media only screen and (max-width:350px) and (min-width: 0px){
