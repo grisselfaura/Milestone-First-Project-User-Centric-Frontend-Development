@@ -56,45 +56,34 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
-HTML and CSS code check for coding errors.
-Map link working.
-
-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
-If you try to to enter text in the mobile and dni field, it would only allow numbers in these fields.
-Furthermore, the 'required' attribute is added to all the fields, so if those fields are not filled in, the form will not submit.
-If all field are valid, the page will reload. If an potential buyer is interested in contacting Agronut Perú, they will have to fill out all fields in order for the form to go through.
-
-All links will open in a new tab using 'target="_blank"' and the CV will download to your default folder for downloads on click using the 'download' attribute. All links have been manually tested to ensure that they are pointing to the correct destination.
+HTML and CSS code check for coding errors.TO BE DONE AGAIN!!!
 
 By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar. 
-{The employer and recruiter user story achieved the intended outcome of providing them with a showcase of myself and my work. In the about me section, they can read a bit about my background, and if they're viewing on a desktop, the background of this section is a photo of me. They are able to see my showcased projects via the project cards in the "Work" section. They can view both the live version and the GitHub repository by clicking on the Font Awesome icons. They are also able to view my social media profiles via clicking on the icons in the footer. They are also able to download my CV by either clicking on CV in the navbar dropdown, or by clicking on the document icon in the footer. 
 
-
-
-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that ```background-attachment: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query.
-
-}
-
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+In the about us section, they can read a bit about the organization background.
+They can view both the general products category in the "Product" section and specific information of the each product by clicking on the Readmore buttons (website under construction). 
 
 1. Contact form:
-    1. Go to the "Contact Us" page
-    2. Try to submit the empty form and verify that an error message about the required fields appears
-    3. Try to submit the form with an invalid email address and verify that a relevant error message appears
-    4. Try to submit the form with all inputs valid and verify that a success message appears.
+-Go to the "Contact Us" page
+-If you try to submit the contact form with an invalid email address, there will be an error noting the invalid email address. 
+-If you try to to enter text in the mobile and dni field, it would only allow numbers in these fields.
+-Furthermore, the 'required' attribute is added to all the fields, so if those fields are not filled in, the form will not submit.
+-If all field are valid, the page will reload. If an potential buyer is interested in contacting Agronut Perú, they will have to fill out all fields in order for the form to go through.
 
+In addition other-interested people are able to see colaboration posibilities with the Agronut Perú via the buttons-sections in the "Join us" section. 
+They are also able to view the address location of the company via clicking on the map in the footer. 
+
+All links will open in a new tab using 'target="_blank" to an under construction page. 
+All links have been manually tested to ensure that they are pointing to the correct destination.
+
+-This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that ```background-attachment: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query.
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
+Section with interesting bugs or problems discovered during testing:
 - sections not empalming with each others
 - about us icon losing configuration during responsive
 - H1 tittle does not fit screen on iphone 4 even with media query.
+- background image for sections no reponsive
 
 ## Deployment
 

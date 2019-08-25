@@ -413,10 +413,11 @@ footer {
 @media only screen and (max-width: 30em ) and (min-width: 0px) {
 .section-heading,
 .section-subheading,
-.icon-title,
+.about-icons-area,
 .lead,
-.iphone4respon,
-.btn-readmore {font-size: 80%}
+.btn-readmore,
+.footer-heading,
+.footer-details {font-size: 80%}
 }
 
 @media only screen and (max-width:350px) and (min-width: 0px){
