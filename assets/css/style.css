@@ -79,7 +79,7 @@ header {
     margin: 20px auto;
 }  
 
-#icon-title {
+.icon-title {
     text-align: center;
     margin-bottom: 5px;
 }
@@ -185,7 +185,7 @@ header {
 /*---------------------------------Sections */   
 
 section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING */   
-  padding: 100px 0;
+  padding: 50px 0;
   display: block;
 }
 
@@ -405,14 +405,22 @@ footer {
 
 /*---------------------------------Media Queries*/
 
-@media (max-width: 25em ) {
+@media only screen and (max-width: 30em ) and (min-width: 0px) {
 .header-heading {
     font-size: 1.875em}
- }
+}
 
-@media (max-width:350px){
+@media only screen and (max-width: 30em ) and (min-width: 0px) {
+.section-heading,
+.section-subheading,
+.icon-title,
+.lead,
+.iphone4respon {font-size: 80%}
+}
+
+@media only screen and (max-width:350px) and (min-width: 0px){
     .logo-image {
-    height: 8vh; width: 70vw}
+    height: 8vh; width: 65vw}
 }
 
 @media only screen and (max-width: 1483px) and (min-width: 768px){/* check for feedback if best way to fix it*/
