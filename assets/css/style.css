@@ -204,7 +204,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 300px;
+    height: 50vh;
+    width: auto;
+    min-height: 100px;
  }
 
 .products-image {
@@ -215,7 +217,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 300px;
+    height: 50vh;
+    width: auto;
+    min-height: 100px;
 }
 
 .contact-us-image {
@@ -226,7 +230,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 300px;
+    height: 50vh;
+    width: auto;
+    min-height: 100px;
 }
 
 .join-our-team-image {
@@ -237,7 +243,9 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 300px;
+    height: 50vh;
+    width: auto;
+    min-height: 100px;
 }
 
 /*---------------------------------Section-About us */
