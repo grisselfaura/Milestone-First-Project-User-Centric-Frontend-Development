@@ -258,7 +258,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     float: left;
     width: auto;
     height: 15vh;
-    min-height: 100px;
+    min-height: 5em;
 }
 
 .fa-stack.fa-lg {
