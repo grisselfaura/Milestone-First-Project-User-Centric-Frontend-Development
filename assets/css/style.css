@@ -150,7 +150,7 @@ header {
 
 .arrow-wrapper {
     position: relative;
-    margin: 50px;
+    margin: 40px;
 }
 .arrow-abajo {
     position: absolute;
@@ -425,12 +425,16 @@ footer {
 @media only screen and (max-width: 30em ) and (min-width: 0px) {
 .section-heading,
 .section-subheading,
-.about-icons-area,
+.icon-title,
 .lead,
+.text-align,
 .btn-readmore,
+strong,
 .footer-heading,
-.footer-details {font-size: 80%}
+.footer-details {font-size: 85%}
 }
+
+.text-align, to the right in small screen
 
 @media only screen and (max-width:350px) and (min-width: 0px){
     .logo-image {
