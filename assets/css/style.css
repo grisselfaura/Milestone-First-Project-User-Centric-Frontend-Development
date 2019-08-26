@@ -98,13 +98,17 @@ header {
     margin: 0 auto;
 }
 
+.navbar-light .navbar-nav .nav-link.active {
+    color: #0ee1a2e8;
+}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #0000EE;
+    color: #0ee1a2e8;
     font-size: 1.65em;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: #0ee1a2e8;;
+    color: rgba(194, 233, 37, 1);
     font-weight: bold;
 }
 
