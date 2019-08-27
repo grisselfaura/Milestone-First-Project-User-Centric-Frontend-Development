@@ -184,7 +184,7 @@ header {
 /*---------------------------------Hover.css*/
 
 .btn-readmore:hover {opacity: 0.6; background-color: #3ea957; 
-  color: black; } /*COULD I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLORt*/
+  color: black; } /* I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLOR*/
 
 /*---------------------------------Sections */   
 
@@ -196,6 +196,12 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 .about-icons-area {
    padding-top: 20px;
    padding-bottom: 20px;
+   flex-direction: row;
+}
+
+.icons-display { 
+    display: flex !important;
+    justify-content: center;
 }
 
 /*---------------------------------Sections-header-images */
@@ -208,7 +214,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 50vh;
+    height: 35vh;
     width: auto;
     min-height: 100px;
  }
@@ -221,7 +227,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 50vh;
+    height: 35vh;
     width: auto;
     min-height: 100px;
 }
@@ -234,7 +240,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 50vh;
+    height: 35vh;
     width: auto;
     min-height: 100px;
 }
@@ -247,7 +253,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     display: flex;
-    height: 50vh;
+    height: 35vh;
     width: auto;
     min-height: 100px;
 }
@@ -255,9 +261,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 /*---------------------------------Section-About us */
 
 .about-icon {
-    float: left;
     width: auto;
-    height: 15vh;
+    height: 5vh;
     min-height: 5em;
 }
 
@@ -265,7 +270,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     padding: 10px 0;
 }
 
-/*---------------------------------Section-products */
+/*---------------------------------Section-Products */
 
 .card.h-100 {
   position: relative;
@@ -293,7 +298,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0;
 }
@@ -308,7 +313,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0;
 }
@@ -323,7 +328,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0;
 }
@@ -338,7 +343,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0;  
 }
@@ -353,7 +358,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0;    
 }
@@ -368,7 +373,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     background-position: top center;
     display: flex;
     width: auto;
-    height: 35vh;
+    height: 25vh;
     min-height: 200px;
     margin: 0; 
 }
@@ -417,17 +422,30 @@ footer {
 
 /*---------------------------------Media Queries*/
 
+@media only screen and (max-width: 30em ) and (min-width: 0px) {
+.header-heading {
+    font-size: 1.875em}
+}
 
-
-.text-align, to the right in small screen
+@media only screen and (max-width: 30em ) and (min-width: 0px) {
+.section-heading,
+.section-subheading,
+.icon-title,
+.lead,
+.text-align,
+.btn-readmore,
+strong,
+.footer-heading,
+.footer-details {font-size: 90%}
+}
 
 @media only screen and (max-width:350px) and (min-width: 0px){
     .logo-image {
     height: 8vh; width: 65vw}
 }
 
-@media only screen and (max-width: 1483px) and (min-width: 768px){/* check for feedback if best way to fix it*/
-.col-xl-4 {
+@media only screen and (max-width:992px)and (min-width: 792px){/* check for feedback if best way to fix it*/
+.col-xl-4.col-lg-6.col-10.mx-auto {
     flex: 0 0 50%;
     max-width: 50%;}
 }
