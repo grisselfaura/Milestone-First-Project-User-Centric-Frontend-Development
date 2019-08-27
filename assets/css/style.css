@@ -37,7 +37,7 @@ h4 {
 .lead {
     text-align: justify;
     font-weight: 500;
-    font-size: 21px;
+    font-size: 1.75em;
     line-height: 1.3;
     margin: auto;
 }
@@ -52,7 +52,7 @@ header {
 
 .header-heading {
     font-weight: 600;
-    font-size: 60px;
+    font-size: 5em;
     text-align: center;
     margin-bottom: 15px;
     color: #fff;
@@ -168,7 +168,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 1.333em;
   margin: 20px 0 15px;
   opacity: 1;
   -webkit-transition: background-color 0.15s ease-in-out; /* Safari */
@@ -388,7 +388,7 @@ footer {
 }
 
 .footer-icon {
-    font-size: 25px;
+    font-size: 2.083em;
     color: #fff;
     text-align: center;
     width: 100%;
@@ -412,27 +412,12 @@ footer {
     margin-bottom: 5px;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 1em;
 }
 
 /*---------------------------------Media Queries*/
 
-@media only screen and (max-width: 30em ) and (min-width: 0px) {
-.header-heading {
-    font-size: 1.875em}
-}
 
-@media only screen and (max-width: 30em ) and (min-width: 0px) {
-.section-heading,
-.section-subheading,
-.icon-title,
-.lead,
-.text-align,
-.btn-readmore,
-strong,
-.footer-heading,
-.footer-details {font-size: 85%}
-}
 
 .text-align, to the right in small screen
 
