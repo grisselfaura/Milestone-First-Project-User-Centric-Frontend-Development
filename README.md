@@ -20,9 +20,9 @@ You can check out the website [here](https://grisselfaura.github.io/User-Centric
 - The design color scheme was chosen by a local graphic designer with further insight to the peruvian marketing trends to create a colorful visual impact and straighforward easy-to-use feeling. 
 
 - For the buyers, I wanted to provide them with a brief overview of the company, the product's categories and a contact form to request such product via a user friendly design.
-  This way, they would be able to get a glimpse of Agronut Perú, the products catalog and an easy-reliable option to contact Agronut Perú if they choose to obtain such product. 
+  This way, they would be able to get a glimpse of Agronut Perú, the products catalog and an easy-reliable option to contact Agronut Perú if they choose to obtain such product or simply information. 
   In the 'Contact us' section, I wanted them to be able to quickly reach Agronut Perú customer service and sales using a safely approach to avoid potential local internet scams. 
-  A google map link showing the company address was also provided for their information. 
+  A google map link in the footer showing the company address was also provided for their information. 
 
 - For potential partnerships, I wanted to provide them with a brief overview of the company oppportunities in the 'Join us' section and corresponding subsections. 
   [Subsections with corresponding information will be further developed upon company request}.
@@ -56,7 +56,8 @@ In this section, you should mention all of the languages, frameworks, libraries,
 
 
 ## Testing
-HTML and CSS code check for coding errors.TO BE DONE AGAIN!!!
+HTML and CSS code checked for coding errors.
+CSS prefixes were checked against https://autoprefixer.github.io/
 
 By clicking on the links in the navbar, the scrollSpy effect will work regardless of whether or not you're viewing the sections in the same order they are listed in the dropdown navbar. 
 
@@ -73,17 +74,17 @@ They can view both the general products category in the "Product" section and sp
 In addition other-interested people are able to see colaboration posibilities with the Agronut Perú via the buttons-sections in the "Join us" section. 
 They are also able to view the address location of the company via clicking on the map in the footer. 
 
-All links will open in a new tab using 'target="_blank" to an under construction page. 
+All links will open in a new tab using 'target="_blank" to an under construction page (currently). 
 All links have been manually tested to ensure that they are pointing to the correct destination.
 
 -This site was tested across multiple browsers (Chrome, Safari, Internet Explorer, FireFox) and on multiple mobile devices (iPhone 4, 5, 7: Chrome and Safari, iPad, Samsung Galaxy) to ensure compatibility and responsiveness. During the testing phase, I realized that ```background-attachment: fixed``` was not compatible with iOS browsers. On Chrome and Safari in iOS, the background photos appeared zoomed-in and blurry. To fix this, the ```background-attachment: scroll``` property value was added in a media query.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+In addition, the site  was tested via  http://ami.responsivedesign.is/ to review how the project looks and works on different screen sizes.
 
 Section with interesting bugs or problems discovered during testing:
-- sections not empalming with each others
-- about us icon losing configuration during responsive
-- H1 tittle does not fit screen on iphone 4 even with media query.
-- background image for sections no reponsive
+- sections not empalming with each others.
+- about us icon losing configuration during responsive (fixed)
+- H1 tittle does not fit screen on iphone 4 even with media query (fixed).
+- background image for sections no reponsive (fixed).
 
 ## Deployment
 
