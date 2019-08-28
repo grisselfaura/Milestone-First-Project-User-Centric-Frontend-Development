@@ -134,8 +134,14 @@ header {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: relative;
     opacity: 0.9;
@@ -158,8 +164,8 @@ header {
 
 /*---------------------------------Buttoms */  
 
-.btn-readmore { /*code combination from cssbuttons//bootstraap button styles/css hover effect*/
-  background-color: #0ee1a2e8; /* change color */
+.btn-readmore { /*code combination from css buttons//bootstraap button styles/css hover effect*/
+  background-color: #0ee1a2e8; /* changed the color */
   border: none;
   color: white;
   border-radius: 6%;
@@ -172,6 +178,7 @@ header {
   margin: 20px 0 15px;
   opacity: 1;
   -webkit-transition: background-color 0.15s ease-in-out; /* Safari */
+  -o-transition: background-color 0.15s ease-in-out;
   transition: background-color 0.15s ease-in-out;
   cursor: pointer;
   clear: both;
@@ -184,7 +191,7 @@ header {
 /*---------------------------------Hover.css*/
 
 .btn-readmore:hover {opacity: 0.6; background-color: #3ea957; 
-  color: black; } /* I CHANGE OPACITY TO AFFECT ONLY BACKGROUND COLOR*/
+  color: black; } /* I changed the opacity to affect bg color and color*/
 
 /*---------------------------------Sections */   
 
@@ -196,11 +203,18 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 .about-icons-area {
    padding-top: 20px;
    padding-bottom: 20px;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+   -ms-flex-direction: row;
    flex-direction: row;
 }
 
 .icons-display { 
+    display: -webkit-box !important; 
+    display: -ms-flexbox !important; 
     display: flex !important;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
 }
 
@@ -213,6 +227,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 35vh;
     width: auto;
@@ -226,6 +242,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 35vh;
     width: auto;
@@ -239,6 +257,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 35vh;
     width: auto;
@@ -252,6 +272,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     height: 35vh;
     width: auto;
@@ -274,8 +296,13 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 
 .card.h-100 {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
@@ -296,6 +323,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
@@ -311,6 +340,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
@@ -326,6 +357,8 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
@@ -334,13 +367,15 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 }
 
 .products-enraizantes {
-  background-image: url("../images/products/mini-productos-enraizantes.png");
+    background-image: url("../images/products/mini-productos-enraizantes.png");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
@@ -349,18 +384,20 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
 }
 
 .products-nutriprotectores {
-   background-image: url("../images/products/mini-productos-nutriprotectores.png");
+    background-image: url("../images/products/mini-productos-nutriprotectores.png");
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
     min-height: 200px;
-    margin: 0;    
+    margin: 0;;    
 }
 
 .products-deluxe {
@@ -371,11 +408,13 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     -o-background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: auto;
     height: 25vh;
     min-height: 200px;
-    margin: 0; 
+    margin: 0 
 }
 
 /*---------------------------------Footer*/
@@ -446,6 +485,8 @@ strong,
 
 @media only screen and (max-width:992px)and (min-width: 792px){/* check for feedback if best way to fix it*/
 .col-xl-4.col-lg-6.col-10.mx-auto {
-    flex: 0 0 50%;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
     max-width: 50%;}
 }
