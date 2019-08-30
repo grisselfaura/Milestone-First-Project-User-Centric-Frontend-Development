@@ -9,8 +9,8 @@ This website is part of my portfolio to present to prospective employers and als
 
 ## Demo
 
-You can check out the website [here](https://grisselfaura.github.io/User-Centric-Frontend-Development-Milestone-Project/)!
-![Responsive mockup](https://raw.githubusercontent.com/grisselfaura/User-Centric-Frontend-Development-Milestone-Project/master/assets/images/read-mockups/Mock-up-responsive-test.PNG "Responsive mockup")
+You can check out the website [here]( https://grisselfaura.github.io/Milestone-First-Project-User-Centric-Frontend-Development/)!
+![Responsive mockup](https://raw.githubusercontent.com/grisselfaura/Milestone-First-Project-User-Centric-Frontend-Development/master/assets/images/read-mockups/Mock-up-responsive-test.PNG "Responsive mockup")
 
  
 ## UX
