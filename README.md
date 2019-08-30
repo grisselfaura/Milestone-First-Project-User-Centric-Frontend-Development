@@ -84,7 +84,7 @@ Section with interesting bugs or problems discovered during testing:
 - sections not empalming with each others.
 - about us icon losing configuration during responsive (fixed)
 - H1 tittle does not fit screen on iphone 4 even with media query (fixed).
-- background image for sections no reponsive (fixed).
+- background header images for sections reponsive for >md screens (fixed) not yet debugged to scale down for <sm screens.
 
 ## Deployment
 
