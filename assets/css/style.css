@@ -237,6 +237,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     display: flex;
     height: 35vh;
     width: auto;
+    min-width: 100%;
     min-height: 100px;
  }
 
@@ -252,6 +253,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     display: flex;
     height: 35vh;
     width: auto;
+    min-width: 100%;
     min-height: 100px;
 }
 
@@ -267,6 +269,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     display: flex;
     height: 35vh;
     width: auto;
+    min-width: 100%;
     min-height: 100px;
 }
 
@@ -282,6 +285,7 @@ section {/*---------------------------------CHECK IF THIS WILL FIX THE PADDING *
     display: flex;
     height: 35vh;
     width: auto;
+    min-width: 100%;
     min-height: 100px;
 }
 
